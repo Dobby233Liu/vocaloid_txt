@@ -41,17 +41,15 @@ else:
     print("vocaloid_txt dat file is corrupt")
     
  def voc();
- import re
-def check_string():
-    #no need to pass arguments to function if you're not using them
-    w = raw_input("vocaloid_txt by tent. search for song in database:");
+ 
+  w = raw_input("vocaloid_txt by tent. search for song in database:");
 
-    #open the file using `with` context manager, it'll automatically close the file for you
+ 
     with open(txt.dat) as f
         found = False
-        for line in f:  #iterate over the file one line at a time(memory efficient)
-            if re.search("\b{0}\b".format(w),line):    #if string found is in current line then print it
-                os.system("start \"\" https://www.youtube.com/results?search_query=(w));
+        for line in f:  
+            if re.search("\b{0}\b".format(w),line):    
+                os.system("start \"\" https://www.youtube.com/results?search_query=(w)); // search yt for song
                 found = True
         if not found:
             print('not found')
