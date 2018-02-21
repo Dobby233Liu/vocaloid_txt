@@ -1,2 +1,2 @@
 # vocaloid_txt
-the yoshi look at porn
+the yoshi look at the chinese book
