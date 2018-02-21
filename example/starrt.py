@@ -1,2 +1,2 @@
-require 'vocaloid_txt'
+require vocaloid_txt
 vocaloid_txt.voc();
