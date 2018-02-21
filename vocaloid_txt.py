@@ -12,15 +12,15 @@ dat = ["Paradichlorobenzene",
 "shake it!",
 "Snowman",
 "Butterfly on My Right Shoulder",
-"The Disappearance of Hatsune Miku",
+"The Disappearance of Hatsune Miku",#oh no i regret it
 "World's End Dancehall",
 "Rin-Chan Now!!",
 "Kurumi Ponchio",
 "Gigantic O.T.N",
 "Two-Faced Lovers",
 "Electric Angel",
-"Luka Luka Night Fever",
-"
+"Luka Luka Night Fever"
+
  ]
 
 content = []
@@ -31,18 +31,18 @@ def read_signature(file_path):
             for i in range(0,5):
                 content.append(data.readline())
     except IOError as err:
-        print("something wrong "+   str(err))
+          print("something wrong "+str(err))#wow direct convert
 
 read_signature(os.getcwd()+'/'+'txt.dat')
 
 if(content==autorun_signature):
-    print("nnothing wrong. vocaloid_txt working")
+    print("nothing wrong. vocaloid_txt working")
 else:
     print("vocaloid_txt dat file is corrupt")
     
  def voc();
  
-  w = raw_input("vocaloid_txt by tent. search for song in database:");
+  w = raw_input("vocaloid_txt by tent. search for songs in the database:");
 
  
     with open(txt.dat) as f
