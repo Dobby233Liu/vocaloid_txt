@@ -49,7 +49,7 @@ else:
         found = False
         for line in f:  
             if re.search("\b{0}\b".format(w),line):    
-                os.system("start \"\" https://www.youtube.com/results?search_query=(w)); // search yt for song
+                os.system("start \"\" https://www.youtube.com/results?search_query=(w)); # search YT for song
                 found = True
         if not found:
             print('not found')
